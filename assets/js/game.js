@@ -170,9 +170,24 @@ var shop = function() {
     }
 };
 
+// function to set name 
+var getPlayerName = function() {
+    var name = "";
+
+    // for(var i = 0; i < getPlayerName.length; i++)
+    // prompt here
+    while (name === "" || name === null){
+        name = prompt("What is your robot's name?");
+    }
+    // condition here?
+
+    console.log("Your robot's name is " + name);
+    return name;
+};
+
 
 var playerInfo = {
-    name: window.prompt("What is your robot's name?"),
+    name: getPlayerName(),
     health: 100,
     attack: 10,
     money: 10,
