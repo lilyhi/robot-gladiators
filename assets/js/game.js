@@ -186,24 +186,6 @@ var endGame = function() {
     }
 };
 
-//     // if player is still alive, player wins!
-//     if (playerInfo.health > 0) {
-//         window.alert("Great job, you've survived the game! You now have a score of " + playerInfo.money + ".");
-//     }   else {    
-//         window.alert("You've lost your robot in battle.");
-//     }
-    
-//     // ask player if they'd like to play again
-//     var playAgainConfirm = window.confirm("Would you like to play again?");
-    
-//     if (playAgainConfirm) {
-//         // restart the game
-//         startGame();
-//     }   else {
-//         window.alert("Thank you for playing Robot Gladiators! come back soon!");
-//     }
-// };
-
 // go to the shop between battles function 
 var shop = function() {
     // ask the player what they'd like to do
@@ -293,10 +275,6 @@ var enemyInfo = [
 
 /* END GAME INFORMATION / VARIABLES */
 
-// console.log(enemyInfo);
-// console.log(enemyInfo[0]);
-// console.log(enemyInfo[0].name);
-// console.log(enemyInfo[0]['attack']);
 
 /* RUN GAME */
 startGame();
